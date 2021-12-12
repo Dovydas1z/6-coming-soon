@@ -20,7 +20,7 @@ Design: https://cdn.discordapp.com/attachments/850245533838868480/85024647336217
 - HTML form
 - FontAwesome icons
 - CSS animation
-- CSS background images
+
 
 ## Authors
 
