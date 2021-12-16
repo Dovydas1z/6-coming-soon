@@ -42,7 +42,9 @@
                 </div>
             </div>
             <form class="form">
-                SUBSCRIBE FORM
+                    <label for="email">Email</label>
+                    <input id="email" class="input" type="email" placeholder="email" required autocomplete="email" value="">
+                    <button class="btn" type="submit">Send message</button>
             </form>
             <div class="mouse">
                 MOUSE
@@ -51,11 +53,50 @@
     </section>
     <main class="container">
         <div class="row">
-            <div class="left">
-                LEFT CONTENT
+            <div class="column left">
+                <h2 class="content-title">About Startup</h2>
+                <p class="content-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum debitis itaque similique vel doloremque. Quibusdam, libero ipsam? <a class="link"href="#">Matrox</a> Fuga ipsam ex, quam mollitia, illum modi voluptas reiciendis architecto nihil nam nesciunt minima quas, delectus a omnis neque consectetur saepe et voluptatibus impedit fugiat accusantium? Ad quo explicabo quaerat reiciendis voluptatum aliquam.</p>
+
+                 <div class="progress-bar">
+                     <div class="top">
+                         <div class="title">UX Design</div>
+                         <div class="value">77%</div>
+                     </div>
+                  <div class="bottom">
+                    <div class="bar" style="width: 77%;"></div>
+                </div>
+              </div>
+             <div class="progress-bar">
+                    <div class="top">
+                       <div class="title">Web design</div>
+                       <div class="value">86%</div>
+                    </div>
+                    <div class="bottom">
+                       <div class="bar" style="width: 86%;"></div>
+                   </div>
+                </div>
+                 <div class="progress-bar">
+                    <div class="top">
+                       <div class="title">Web development</div>
+                       <div class="value">50%</div>
+                    </div>
+                    <div class="bottom">
+                       <div class="bar" style="width: 50%;"></div>
+                    </div>
+                </div>
             </div>
-            <div class="right">
-                RIGHT CONTENT
+                <div class="column right">
+                <h2 class="content-title">Have any questions?</h2>
+                <p class="content-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.  <a class="link" href="mailto:vardenis@gmail.com">vardenis@gmail.com</a>Nobis sit molestiae, mollitia voluptate vel minima.</p>
+                <form class="form">
+                    <label for="name">Name</label>
+                    <input type="text" class="input" placeholder="name" required autocomplete="name">
+                    <label for="email">Email</label>
+                    <input type="email" class="input" placeholder="email" required autocomplete="email">
+                    <label for="Email">Email</label>
+                    <textarea name="" id="" class="input" placeholder="message" required autocomplete="off"></textarea>
+                    <button class="btn" type="submit">Send message</button>
+                </form>
             </div>
         </div>
     </main>
